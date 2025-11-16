@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+    margin: 0;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.top-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+input,
+select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.scan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    border-left: 5px solid #007bff;
+}
+
+body.dark .card {
+    background: #1e1e1e;
+    box-shadow: none;
+    border-left: 5px solid #4dabf7;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.change-box {
+    background: #f5f7fa;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 12px;
+    border: 1px solid #dce1e7;
+}
+
+body.dark .change-box {
+    background: #2a2a2a;
+    border: 1px solid #555;
+}
+
+.success {
+    color: #059669;
+    font-weight: bold;
+}
+
+.error {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.added {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.updated {
+    background: #fee2e2;
+    color: #b91c1c;
+}
