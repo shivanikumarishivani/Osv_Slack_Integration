@@ -224,31 +224,6 @@ Clean UI for displaying:
 
 ---
 
-# 🧪 Testing
-You can add test cases using Jest:
 
-```
-
-npm test
-
-```
-
----
-
-# 🔮 Future Improvements (Optional)
-- Add severity filters (Critical/High/Medium/Low)
-- Add pie chart for severity distribution
-- Add auto-fix mode (`npm audit fix` style)
-- Add email notifications
-- Convert dashboard into React app
-
----
-
-# 🙌 Credits
-Project built for OSV integration learning & automation practice.  
-HTML dashboard created with pure JS — no frameworks.  
-Slack integration using official Slack Web API.
-
----
 
 
